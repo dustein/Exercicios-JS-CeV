@@ -1,0 +1,39 @@
+body {
+    background: black;
+    text-align: center;
+}
+main {
+    width: 400px;
+    margin: auto;
+}
+header {
+    background: rgb(202, 228, 131);
+    padding: 5px;
+    border: solid 1px;
+}
+section {
+    background: grey;
+}
+#dados {
+    padding: 30px;
+    background: rgb(207, 207, 207);
+}
+#imagem {
+    border-radius: 40%;
+    margin: 20px;
+}
+footer {
+    background: white;
+    padding: 2px;
+    font-style: italic;
+}
+#resposta {
+    padding: 20px;
+    font-size: 16pt;
+}
+#foto {
+    background: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 30%;
+}
