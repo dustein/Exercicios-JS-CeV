@@ -4,7 +4,7 @@ function iniciar() {
     var nascimento = document.getElementById('nascimento')    
     var resp = document.getElementById('resposta')
 //  var foto = document.getElementById('foto')
-    //se o valor de nascimento for = 0 é que o usuário não digitou o ano de nascimento. ||ou se o valor do ano de nascimento for maior que o valor do ano atual, o valor é inválido. Esse IF serve para validação de dados
+    //se o valor de nascimento for = 0 é que o usuário não digitou o ano de nascimento. ||ou se o valor do ano de nascimento for maior que o valor do ano atual, o valor é inválido. Esse IF serve para validação de dados ->
     if (nascimento.value.length == 0 || nascimento.value > hoje) {
         window.alert('Erro. Verifique os dados. Tente novamente')
     } else {

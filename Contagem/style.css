@@ -1,0 +1,32 @@
+body {
+    width: 400px;
+    margin: auto;
+    background: grey;
+    font-size: 16pt;
+}
+h1 {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 80px;;
+}
+#botao {
+    text-align: center;
+}
+#resp {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border: solid 2px;
+    border-radius: 10%;
+    font-size: 18pt;
+}
+footer {
+    padding: 20px;
+    background: darkblue;
+    color: white;
+    border: solid 1px;
+    border-radius: 10%;
+    text-align: center;
+}
