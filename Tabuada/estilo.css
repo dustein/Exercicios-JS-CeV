@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background: rgb(236, 236, 236);
+}
+h1 {
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    border: solid 5px yellow;
+    margin: auto;
+}
+#dados {
+    background: black;
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 10%;
+}
+#res {
+    background: rgb(235, 235, 179);
+    padding: 10px;
+    min-height: 300px;
+    border-radius: 20%;
+    border: solid 1px;
+    font-size: 120%;
+}
+footer {
+    background: black;
+    color: rgb(194, 192, 192);
+    padding: 10px;
+}
