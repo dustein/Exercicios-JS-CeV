@@ -2,7 +2,10 @@ function calcular() {
     let numero = document.getElementById('num')
     let resultado = document.getElementById('res')
     let n = Number(numero.value)    
-    if (n == 0) {
+    if (numero.value.length == 0) {
+        window.alert('ERRO. favor informar um número!')
+    } else {
+        if (n == 0) {
         resultado.innerHTML='Nem vou calcular, é tudo ZERO mesmo...'
     } else {
         resultado.innerHTML='Calulando...<hr>'
@@ -11,4 +14,6 @@ function calcular() {
         }
         resultado.innerHTML += '<hr>FIM'
     }
+    }
+    
 }

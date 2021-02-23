@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1px;    
+}
+body {
+    background: rgb(243, 235, 220);    
+}
+main {
+    font-size: 1.4em;
+    text-align: center;
+}
+#comando {
+    background: rgb(211, 208, 208);
+    padding: 10px;
+    border: solid black 1px;
+}
+#botao {
+    background: rgb(183, 230, 136);
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 1em;
+}
+#botao:hover {
+    background: rgb(250, 177, 177);
+}
+#resultado {
+    background: rgb(248, 245, 245);
+    box-shadow: 2px 2px 4px black;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 30px;
+    margin: 0px 20px 10px 20px;
+    min-height: 16em;
+}
+footer {
+    text-align: center;
+    background: rgb(92, 92, 92);
+    color: white;
+    padding: 5px;
+}
